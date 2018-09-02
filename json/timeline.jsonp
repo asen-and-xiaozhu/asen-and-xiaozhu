@@ -19,7 +19,7 @@ storyjs_jsonp_data = {
 				"classname":"optionaluniqueclassnamecanbeaddedhere",
 				"asset": {
 					"media":"img/zhu-bg.jpeg",
-					"thumbnail":"optional-32x32px.jpg",
+					"thumbnail":"img/sen-avator.jpeg",
 					//"credit":"Credit Name Goes Here",
 					//"caption":"Caption text goes here"
 				}
@@ -32,7 +32,7 @@ storyjs_jsonp_data = {
 				"classname":"optionaluniqueclassnamecanbeaddedhere",
 				"asset": {
 					"media":"img/zhu-bg.jpeg",
-					"thumbnail":"optional-32x32px.jpg",
+					"thumbnail":"img/zhu-avator.jpeg",
 				}
 			},
 		],
