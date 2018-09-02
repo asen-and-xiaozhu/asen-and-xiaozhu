@@ -1,0 +1,50 @@
+storyjs_jsonp_data = {
+	"timeline":
+	{
+		"headline":"我们的爱情日记",
+		"type":"default",
+		"text":"<p>记录是一件拯救生命的决定。</p>",
+		"asset": {
+			"media":"img/main-bg.jpeg",
+			//"credit":"Credit Name Goes Here",
+			//"caption":"Caption text goes here"
+		},
+		"date": [
+			{
+				"startDate":"2016,09,10",
+				//"endDate":"2011,12,11",
+				"headline":"第一次见面",
+				"text":"<p>人生若只如初见</p>",
+				"tag":"初见",
+				"classname":"optionaluniqueclassnamecanbeaddedhere",
+				"asset": {
+					"media":"img/zhu-bg.jpeg",
+					"thumbnail":"optional-32x32px.jpg",
+					//"credit":"Credit Name Goes Here",
+					//"caption":"Caption text goes here"
+				}
+			},
+			{
+				"startDate":"2016,09,13",
+				"headline":"第一次见面，是在教师节。",
+				"text":"<p>人生若只如初见</p>",
+				"tag":"初见",
+				"classname":"optionaluniqueclassnamecanbeaddedhere",
+				"asset": {
+					"media":"img/zhu-bg.jpeg",
+					"thumbnail":"optional-32x32px.jpg",
+				}
+			},
+		],
+		"era": [
+			{
+				"startDate":"2011,12,10",
+				"endDate":"2011,12,11",
+				//"headline":"Headline Goes Here",
+				//"tag":"This is Optional"
+			}
+
+		]
+
+	}
+}
