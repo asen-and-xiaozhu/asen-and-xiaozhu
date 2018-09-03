@@ -43,6 +43,15 @@ storyjs_jsonp_data = {
 				}
 			},
 			{
+				"startDate":"2016,09,17",
+				"headline":"约饭",
+				"text":"第一次单独吃饭",
+				"asset": {
+					"media":"img/20160917.jpeg",
+					"thumbnail":"img/sen-avator.jpeg",
+				}
+			},
+			{
 				"startDate":"2016,09,20",
 				"headline":"坠入爱河",
 				"text":"<p>初秋的夜晚</p><p>财经主楼前的树下</p>我倾诉心意<p></p><p>你欣然接受</p><p>我们就这么相恋了</p>",
@@ -52,7 +61,7 @@ storyjs_jsonp_data = {
 					"thumbnail":"img/sen-avator.jpeg",
 				}
 			},
-			 {
+			{
 				"startDate": "2016,10,02",
 				"endDate": "2016,10,05",
 				"headline": "第一次旅行",
