@@ -34,10 +34,10 @@
     <!-- jQuery -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <!-- BEGIN TimelineJS -->
-    
+
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
-    <script type="text/javascript" src="js/storyjs-embed.js"></script>    
-    
+    <script type="text/javascript" src="js/storyjs-embed.js"></script>
+
     <script>
         $(document).ready(function () {
             createStoryJS({
@@ -123,16 +123,170 @@
 
     <div id="timeline-embed"></div>
     <script type="text/javascript">
+        var dataObject = {
+            "timeline":
+            {
+                "headline": "我们的爱情日记",
+                "type": "default",
+                "text": "<p>记录是一件拯救生命的决定。</p>",
+                "asset": {
+                    "media": "img/main-bg.jpeg",
+                    //"credit":"Credit Name Goes Here",
+                    //"caption":"Caption text goes here"
+                },
+                "date": [
+                    {
+                        "startDate": "2016,09,10",
+                        //"endDate":"2011,12,11",
+                        "headline": "第一次见面",
+                        "text": "<p>人生若只如初见</p>",
+                        "tag": "初见",
+                        "classname": "optionaluniqueclassnamecanbeaddedhere",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/zhu-avator.jpeg",
+                            //"credit":"Credit Name Goes Here",
+                            //"caption":"Caption text goes here"
+                        }
+                    },
+                    {
+                        "startDate": "2016,09,15",
+                        "headline": "一起度过中秋",
+                        "text": "<p>如今已成网红餐厅的长安大排档</p><p>一次开心的密室逃脱之旅</p><p>第一次看电影《追凶者也》</p>",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/zhu-avator.jpeg",
+                        }
+                    },
+                    {
+                        "startDate": "2016,09,17",
+                        "headline": "装系统的男人",
+                        "text": "执行为小猪同学重装系统的任务",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/sen-avator.jpeg",
+                        }
+                    },
+                    {
+                        "startDate": "2016,09,17",
+                        "headline": "约饭",
+                        "text": "第一次单独吃饭",
+                        "tag": "约饭",
+                        "asset": {
+                            "media": "img/20160917.jpeg",
+                            "thumbnail": "img/sen-avator.jpeg",
+                        }
+                    },
+                    {
+                        "startDate": "2016,09,20",
+                        "headline": "坠入爱河",
+                        "text": "<p>初秋的夜晚</p><p>财经主楼前的树下</p>我倾诉心意<p></p><p>你欣然接受</p><p>我们就这么相恋了</p>",
+                        "tag": "相恋",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/sen-avator.jpeg",
+                        }
+                    },
+                    {
+                        "startDate": "2016,10,02",
+                        "endDate": "2016,10,05",
+                        "headline": "第一次旅行",
+                        "text": "<p>坐上去武汉的火车</p><p>还记得你在我的怀里依偎了很久</p>",
+                        "tag": "相恋",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/sen-avator.jpeg",
+                        }
+                    },
+                    {
+                        "startDate": "2016,10,22",
+                        "headline": "待添加",
+                        "text": "<p>坐上去武汉的火车</p><p>还记得你在我的怀里依偎了很久</p>",
+                        "tag": "相恋",
+                        "asset": {
+                            "media": "img/zhu-bg.jpeg",
+                            "thumbnail": "img/sen-avator.jpeg",
+                        }
+                    },
+                ],
+                "era": [
+                    {
+                        "startDate": "2011,12,10",
+                        "endDate": "2011,12,11",
+                        //"headline":"Headline Goes Here",
+                        //"tag":"This is Optional"
+                    }
+
+                ]
+
+            }
+        }
+            ;
         var timeline_config = {
             width: '100%',
             height: '600',
-            source: 'json/timeline.jsonp',
+            source: dataObject,
             embed_id: 'timeline-embed',				//OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
             start_at_end: false,							//OPTIONAL START AT LATEST DATE
             lang: 'zh-cn',							//OPTIONAL LANGUAGE
         }
     </script>
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            思考了很久的惊喜
+                        </h2>
+                        <h3 class="post-subtitle">
+                            终于有了小进展
+                        </h3>
+                    </a>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            祝臭猪七夕快乐～
+                        </h2>
+                    </a>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            以后一起慢慢再加东西
+                        </h2>
+                        <h3 class="post-subtitle">
+                            在这里记录我们的点点滴滴
+                        </h3>
+                    </a>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            😄😄😄
+                        </h2>
+                        <h3 class="post-subtitle">
+                            😄😄😄
+                        </h3>
+                    </a>
+                </div>
+                <hr>
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr> -->
 
     <!-- Footer -->
     <footer>
